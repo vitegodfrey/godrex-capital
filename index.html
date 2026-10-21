@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Godrex Capital — Trade with Confidence. Grow with Purpose.</title>
+  <meta name="description" content="Godrex Capital is a premier global Forex broker offering raw ECN spreads from 0.0 pips, ultra-fast sub-millisecond execution, Tier-1 bank liquidity, and AI-powered trading analytics.">
+  
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Page Wrapper with Outer Margin for the Curated Card Frame -->
+  <div class="site-frame">
+
+    <!-- HERO SECTION CONTAINER -->
+    <header class="hero-container" id="home">
+      
+      <!-- NAVIGATION BAR -->
+      <nav class="navbar" id="navbar">
+        <a href="#home" class="brand-logo" id="brand-logo" aria-label="Godrex Capital Forex Broker Home">
+          <svg class="brand-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M18 3L4 27H12L18 16.5L24 27H32L18 3Z" fill="currentColor"/>
+            <path d="M18 21L14 28H22L18 21Z" fill="#D9F99D"/>
+          </svg>
+          <span class="brand-name">Godrex Capital</span>
+        </a>
+
+        <ul class="nav-links" id="nav-menu">
+          <li><a href="#home" class="nav-link active">HOME</a></li>
+          <li><a href="#trading-accounts" class="nav-link">ACCOUNTS</a></li>
+          <li><a href="#about" class="nav-link">ABOUT US</a></li>
+          <li><a href="#calculator" class="nav-link">PIP CALCULATOR</a></li>
+          <li><a href="#contact" class="nav-link" id="navContactBtn">CONTACT US</a></li>
+        </ul>
+
+        <div class="nav-actions">
+          <!-- Mobile Menu Toggle Button -->
+          <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+      </nav>
+
+      <!-- HERO MAIN CONTENT -->
+      <div class="hero-content-wrapper">
+        <div class="hero-grid">
+          
+          <!-- Hero Text (Left) -->
+          <div class="hero-text-block">
+            <h1 class="hero-title">
+              Trade with Confidence.<br>
+              Grow with Purpose.
+            </h1>
+            <p class="hero-description">
+              Trade 80+ currency pairs, precious metals, and commodities with raw interbank spreads from 0.0 pips, sub-millisecond execution, and AI-driven market intelligence.
+            </p>
+            
+            <div class="hero-cta-group">
+              <button type="button" class="btn btn-lime btn-large" id="heroCtaBtn">
+                <span>START TRADING</span>
+                <span class="btn-icon-circle">
+                  <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.5 11.5L11.5 4.5M11.5 4.5H5.5M11.5 4.5V10.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+              </button>
+              <button class="btn btn-ghost" id="demoCtaBtn">
+                <span>TRY FREE DEMO</span>
+              </button>
+            </div>
+
+            <!-- Social Proof Rating -->
+            <div class="hero-rating">
+              <p class="rating-text">Rated 4.9/5 by 4,900+ active traders</p>
+              <div class="star-rating" aria-label="5 stars rating">
+                ★★★★★
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Portrait Visual (Right) -->
+          <div class="hero-visual-wrapper">
+            <div class="hero-portrait-frame">
+              <img src="assets/images/hero-portrait.png" alt="Godrex Capital Leadership" class="hero-portrait-img">
+              <div class="portrait-soft-blend"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- FLOATING BENTO DECK (Bottom of Hero) -->
+        <div class="hero-bento-deck">
+          
+          <!-- Card 1: Tag Cloud Card (Forex Trading Features) -->
+          <div class="deck-card deck-card-tags">
+            <div class="tags-cloud">
+              <span class="pill-tag">EUR/USD</span>
+              <span class="pill-tag">Raw ECN</span>
+              <span class="pill-tag">0.0 Pips</span>
+              <span class="pill-tag">1:500</span>
+              <span class="pill-tag">Scalping OK</span>
+              <span class="pill-tag">Hedging</span>
+              <span class="pill-tag">Gold XAU</span>
+            </div>
+            <div class="card-footer-metric">
+              <span class="sub-label">Daily Volume</span>
+              <strong class="stat-number">$5.2B+</strong>
+            </div>
+          </div>
+
+          <!-- Card 2: Executive Photo & Live Trade PnL Bar -->
+          <div class="deck-card deck-card-person">
+            <img src="assets/images/card-person.jpg" alt="Godrex Senior FX Desk Manager" class="deck-person-img">
+            <div class="frosted-stats-bar">
+              <div class="mini-stat">
+                <span class="mini-label">EUR/USD Long <span class="badge-growth">+24.4 pips</span></span>
+                <strong class="mini-val">+$2,670</strong>
+              </div>
+              <div class="stat-divider"></div>
+              <div class="mini-stat">
+                <span class="mini-label">Commission</span>
+                <strong class="mini-val">$1.20</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Obsidian Dark Expertise Card -->
+          <div class="deck-card deck-card-dark">
+            <div class="dark-card-content">
+              <div class="dot-indicator-line">
+                <span class="pulse-dot"></span>
+                <span class="pulse-label">Equinix NY4 Engine</span>
+              </div>
+              <h3 class="dark-card-title">
+                Expertise <span class="lime-circle">●</span> that Combines Raw Liquidity, 0.0 Pips, and AI Execution
+              </h3>
+            </div>
+          </div>
+
+          <!-- Card 4: Live FX Spreads Tracker Card -->
+          <div class="deck-card deck-card-tracker">
+            <div class="tracker-header">
+              <span class="tracker-caption">Live Interbank Spreads</span>
+              <div class="tracker-amount">
+                <span class="val-current">0.0 pips</span>
+                <span class="val-limit">EUR/USD</span>
+              </div>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar-fill" style="width: 98%;"></div>
+              </div>
+            </div>
+            <div class="tracker-list">
+              <div class="tracker-row">
+                <div class="row-left">
+                  <span class="tag-status">EUR/USD Raw ECN</span>
+                  <small>Interbank Feed</small>
+                </div>
+                <strong class="row-amount spread-green">0.0 pips</strong>
+              </div>
+              <div class="tracker-row">
+                <div class="row-left">
+                  <span class="tag-status">GBP/USD Prime</span>
+                  <small>Direct STP</small>
+                </div>
+                <strong class="row-amount">0.2 pips</strong>
+              </div>
+              <div class="tracker-row">
+                <div class="row-left">
+                  <span class="tag-status">XAU/USD (Gold)</span>
+                  <small>London Fix</small>
+                </div>
+                <strong class="row-amount">1.1 pips</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5: Soft Floating Status Pill Card -->
+          <div class="deck-card deck-card-status">
+            <div class="status-pill-item">
+              <span class="icon-circle">⚡</span>
+              <span>Execution</span>
+              <span class="status-badge-live">12ms</span>
+            </div>
+            <div class="status-pill-item">
+              <span class="icon-circle">🛡️</span>
+              <span>Requotes</span>
+              <span class="status-badge-live">0.0%</span>
+            </div>
+            <div class="status-pill-item">
+              <span class="icon-circle">🏦</span>
+              <span>Segregated Funds</span>
+              <span class="status-badge-live">Tier-1</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </header>
+
+    <!-- MAIN BODY SECTIONS -->
+    <main>
+
+      <!-- SECTION: ABOUT US -->
+      <section class="section about-section" id="about">
+        <div class="section-badge-wrap">
+          <span class="section-tag">• ABOUT GODREX CAPITAL</span>
+        </div>
+
+        <div class="about-headline-container">
+          <h2 class="about-statement">
+            A global forex broker<br>
+            dedicated to building 
+            <span class="inline-badge inline-badge-blue">
+              <svg viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/>
+              </svg>
+            </span>
+            faster<br>
+            and 
+            <span class="inline-badge inline-badge-lime">
+              <svg viewBox="0 0 20 20" fill="currentColor">
+                <path d="M11 3a1 1 0 10-2 0v1a1 1 0 102 0V3zM15.657 5.757a1 1 0 00-1.414-1.414l-.707.707a1 1 0 001.414 1.414l.707-.707zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zM5.05 6.464A1 1 0 106.464 5.05l-.707-.707a1 1 0 00-1.414 1.414l.707.707zM5 10a1 1 0 01-1 1H3a1 1 0 110-2h1a1 1 0 011 1zM8 16v-1h4v1a2 2 0 11-4 0zM12 14H8a4 4 0 01-2.92-1.272A4.975 4.975 0 014 9a6 6 0 1112 0 4.975 4.975 0 01-1.08 3.728A4 4 0 0112 14z"/>
+              </svg>
+            </span>
+            more adaptive trading
+          </h2>
+        </div>
+
+        <!-- ABOUT BENTO GRID (Exact match to sample 4 columns) -->
+        <div class="about-bento-grid">
+          
+          <!-- Bento 1: Cloud & Global Markets -->
+          <div class="bento-cell bento-light">
+            <div class="tags-cloud">
+              <span class="pill-tag">Raw Spreads</span>
+              <span class="pill-tag">No Dealing Desk</span>
+              <span class="pill-tag">Fix API</span>
+              <span class="pill-tag">MT4/MT5</span>
+              <span class="pill-tag">Scalp Friendly</span>
+              <span class="pill-tag">Crypto FX</span>
+              <span class="pill-tag">Zero Requotes</span>
+            </div>
+            <div class="bento-metric-bottom">
+              <span class="bento-label">Global Markets</span>
+              <strong class="bento-big-stat">160+</strong>
+            </div>
+          </div>
+
+          <!-- Bento 2: Vibrant Lime Card (STP / ECN Guarantee) -->
+          <div class="bento-cell bento-lime">
+            <div class="bento-top-text">
+              <span>Commitment to measurable</span>
+            </div>
+            <div class="bento-big-number">
+              100%
+            </div>
+            <p class="bento-desc">
+              Straight-Through Processing (STP) with direct Tier-1 bank liquidity aggregation.
+            </p>
+          </div>
+
+          <!-- Bento 3: Dark Botanical / Nature Card (120+ Assets) -->
+          <div class="bento-cell bento-image" style="background-image: url('assets/images/card-leaf.jpg');">
+            <div class="bento-image-overlay">
+              <div class="bento-image-stat">
+                120+
+              </div>
+              <p class="bento-image-desc">
+                Tradable FX majors, minors, exotics, precious metals, and spot energy CFDs.
+              </p>
+            </div>
+          </div>
+
+          <!-- Bento 4: Data Points (Quotes per second) -->
+          <div class="bento-cell bento-light">
+            <div class="bento-top-text">
+              <span>Data Points</span>
+            </div>
+            <div class="bento-big-number bento-num-dark">
+              520k+
+            </div>
+            <p class="bento-desc bento-desc-dark">
+              Price updates processed every second to guarantee razor-thin bid/ask pricing.
+            </p>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- SECTION: LIQUIDITY PROVIDERS & BANKING PARTNERS -->
+      <section class="section partner-section" aria-label="Liquidity Providers and Institutional Banks">
+        <div class="ticker-track-wrap">
+          <div class="ticker-track" id="logoTicker">
+            <div class="logo-item"><span class="logo-sym">✦</span> BARCLAYS</div>
+            <div class="logo-item"><span class="logo-sym">⬢</span> UBS LIQUIDITY</div>
+            <div class="logo-item"><span class="logo-sym">❖</span> J.P. MORGAN</div>
+            <div class="logo-item"><span class="logo-sym">≋</span> CITADEL FX</div>
+            <div class="logo-item"><span class="logo-sym">✳</span> EQUINIX NY4</div>
+            <div class="logo-item"><span class="logo-sym">◆</span> BNP PARIBAS</div>
+            <div class="logo-item"><span class="logo-sym">◎</span> METATRADER 5</div>
+            <!-- Duplicated for seamless infinite marquee -->
+            <div class="logo-item"><span class="logo-sym">✦</span> BARCLAYS</div>
+            <div class="logo-item"><span class="logo-sym">⬢</span> UBS LIQUIDITY</div>
+            <div class="logo-item"><span class="logo-sym">❖</span> J.P. MORGAN</div>
+            <div class="logo-item"><span class="logo-sym">≋</span> CITADEL FX</div>
+            <div class="logo-item"><span class="logo-sym">✳</span> EQUINIX NY4</div>
+            <div class="logo-item"><span class="logo-sym">◆</span> BNP PARIBAS</div>
+            <div class="logo-item"><span class="logo-sym">◎</span> METATRADER 5</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION: FOREX ACCOUNT TYPES -->
+      <section class="section services-section" id="trading-accounts">
+        <div class="section-header">
+          <span class="section-tag">• TRADING ACCOUNTS</span>
+          <h2 class="section-title">Engineered for Every Trading Style</h2>
+          <p class="section-subtitle">Whether you are an algorithmic scalper, day trader, or institutional fund manager, experience true institutional trading conditions.</p>
+        </div>
+
+        <div class="services-grid">
+          
+          <!-- Account 1: Standard STP -->
+          <div class="service-card" data-service="stp">
+            <div class="service-top">
+              <span class="service-index">01</span>
+              <span class="service-icon">⚡</span>
+            </div>
+            <h3 class="service-title">Standard STP Account</h3>
+            <p class="service-desc">
+              All-inclusive transparent pricing with zero commissions. Ideal for discretionary traders and swing positions.
+            </p>
+            <ul class="service-bullets">
+              <li>Spreads from 1.0 pips (Zero commission)</li>
+              <li>Leverage up to 1:500</li>
+              <li>Minimum deposit: $50</li>
+              <li>Micro lots available (0.01 lot)</li>
+            </ul>
+            <div class="service-cta">
+              <span class="service-learn">Open STP Account ↗</span>
+            </div>
+          </div>
+
+          <!-- Account 2: Raw ECN (Highlighted) -->
+          <div class="service-card active-service" data-service="raw-ecn">
+            <div class="service-badge-top">Most Popular</div>
+            <div class="service-top">
+              <span class="service-index">02</span>
+              <span class="service-icon">🌐</span>
+            </div>
+            <h3 class="service-title">Raw ECN Account</h3>
+            <p class="service-desc">
+              Direct market access with true 0.0 pip raw interbank spreads. Engineered for scalpers, EA bots, and high-volume traders.
+            </p>
+            <ul class="service-bullets">
+              <li>Spreads from 0.0 pips</li>
+              <li>Ultra-low $3.00 commission per lot/side</li>
+              <li>Sub-12ms execution via Equinix LD4</li>
+              <li>No restrictions on scalping or news trading</li>
+            </ul>
+            <div class="service-cta">
+              <span class="service-learn">Open Raw ECN Account ↗</span>
+            </div>
+          </div>
+
+          <!-- Account 3: Pro VIP / Institutional -->
+          <div class="service-card" data-service="pro-vip">
+            <div class="service-top">
+              <span class="service-index">03</span>
+              <span class="service-icon">🏛️</span>
+            </div>
+            <h3 class="service-title">Pro VIP Institutional</h3>
+            <p class="service-desc">
+              Bespoke liquidity streams, custom FIX API 4.4 integration, dedicated VPS hosting, and personalized account management.
+            </p>
+            <ul class="service-bullets">
+              <li>Custom raw spread streams & volume rebates</li>
+              <li>Free low-latency Cross-Connect VPS</li>
+              <li>Dedicated institutional currency strategist</li>
+              <li>Multi-Account Manager (MAM / PAMM)</li>
+            </ul>
+            <div class="service-cta">
+              <span class="service-learn">Apply for Institutional ↗</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- SECTION: INTERACTIVE FOREX PIP & PROFIT CALCULATOR -->
+      <section class="section calculator-section" id="calculator">
+        <div class="calc-card">
+          <div class="calc-header">
+            <span class="section-tag">• TRADING TOOLS</span>
+            <h2 class="calc-title">Interactive Forex Profit & Pip Calculator</h2>
+            <p class="calc-sub">Calculate position values, margin requirements, and projected pip gains in real-time.</p>
+          </div>
+
+          <div class="calc-body-grid">
+            
+            <div class="calc-controls">
+              <!-- Currency Pair Selector -->
+              <div class="input-group">
+                <label for="currencyPair">Currency Pair</label>
+                <div class="strategy-pill-group" id="pairSelector">
+                  <button type="button" class="strat-btn active" data-pair="EURUSD" data-pipvalue="10" data-price="1.0850">EUR/USD</button>
+                  <button type="button" class="strat-btn" data-pair="GBPUSD" data-pipvalue="10" data-price="1.2720">GBP/USD</button>
+                  <button type="button" class="strat-btn" data-pair="USDJPY" data-pipvalue="6.65" data-price="150.30">USD/JPY</button>
+                  <button type="button" class="strat-btn" data-pair="XAUUSD" data-pipvalue="10" data-price="2650.00">XAU/USD (Gold)</button>
+                </div>
+              </div>
+
+              <!-- Slider 1: Trading Volume (Lot Size) -->
+              <div class="input-group">
+                <div class="slider-label-row">
+                  <label for="lotSlider">Trading Volume (Lots)</label>
+                  <span class="slider-val" id="lotValDisplay">1.00 Lot</span>
+                </div>
+                <input type="range" id="lotSlider" min="0.05" max="20" step="0.05" value="1.00" class="custom-slider">
+                <div class="slider-ticks">
+                  <span>0.05 Lot</span>
+                  <span>5.0 Lots</span>
+                  <span>10.0 Lots</span>
+                  <span>20.0 Lots</span>
+                </div>
+              </div>
+
+              <!-- Slider 2: Pip Movement -->
+              <div class="input-group">
+                <div class="slider-label-row">
+                  <label for="pipSlider">Pip Price Movement</label>
+                  <span class="slider-val" id="pipValDisplay">+35 Pips</span>
+                </div>
+                <input type="range" id="pipSlider" min="5" max="150" step="1" value="35" class="custom-slider">
+                <div class="slider-ticks">
+                  <span>5 pips</span>
+                  <span>50 pips</span>
+                  <span>100 pips</span>
+                  <span>150 pips</span>
+                </div>
+              </div>
+
+              <!-- Leverage Selector -->
+              <div class="input-group">
+                <label>Account Leverage</label>
+                <div class="strategy-pill-group" id="leverageSelector">
+                  <button type="button" class="strat-btn" data-leverage="100">1:100</button>
+                  <button type="button" class="strat-btn" data-leverage="200">1:200</button>
+                  <button type="button" class="strat-btn active" data-leverage="500">1:500 (Pro)</button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Calculator Results Panel -->
+            <div class="calc-results-panel">
+              <div class="result-badge" id="pipValueBadge">Pip Value: $10.00 / pip</div>
+              <div class="result-metric-large">
+                <span class="result-label">Projected Trade Profit</span>
+                <span class="result-number" id="tradeProfitDisplay">+$350.00</span>
+              </div>
+
+              <!-- Interactive Dynamic SVG Chart -->
+              <div class="calc-chart-container">
+                <svg id="growthChartSvg" viewBox="0 0 400 150" class="growth-chart">
+                  <defs>
+                    <linearGradient id="chartGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" stop-color="#ccff00" stop-opacity="0.4"/>
+                      <stop offset="100%" stop-color="#ccff00" stop-opacity="0.0"/>
+                    </linearGradient>
+                  </defs>
+                  <path id="chartArea" d="M0,150 L0,110 Q200,90 400,30 L400,150 Z" fill="url(#chartGradient)"/>
+                  <path id="chartLine" d="M0,110 Q200,90 400,30" fill="none" stroke="#bef264" stroke-width="4" stroke-linecap="round"/>
+                  <circle id="chartPoint" cx="400" cy="30" r="6" fill="#111827" stroke="#bef264" stroke-width="3"/>
+                </svg>
+              </div>
+
+              <div class="result-footer">
+                <div class="gain-item">
+                  <span>Required Margin:</span>
+                  <strong id="marginRequiredDisplay" class="lime-text">$217.00</strong>
+                </div>
+                <button class="btn btn-lime btn-small" id="calcCtaBtn">Trade This Pair</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION: PERFORMANCE / EXECUTION METRICS -->
+      <section class="section performance-section" id="performance">
+        <div class="section-header">
+          <span class="section-tag">• EXECUTION INFRASTRUCTURE</span>
+          <h2 class="section-title">Institutional Grade Speed & Reliability</h2>
+          <p class="section-subtitle">Connected directly to the world's primary financial optical fiber cross-connect hubs.</p>
+        </div>
+
+        <div class="metrics-deck">
+          <div class="metric-box">
+            <span class="metric-highlight">&lt; 12ms</span>
+            <span class="metric-caption">Average Execution Latency</span>
+          </div>
+          <div class="metric-box">
+            <span class="metric-highlight">0.0 Pips</span>
+            <span class="metric-caption">Minimum EUR/USD Raw Spread</span>
+          </div>
+          <div class="metric-box">
+            <span class="metric-highlight">100%</span>
+            <span class="metric-caption">Negative Balance Protection</span>
+          </div>
+          <div class="metric-box">
+            <span class="metric-highlight">99.99%</span>
+            <span class="metric-caption">Price Feed Uptime</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION: FAQ -->
+      <section class="section faq-section" id="faq">
+        <div class="section-header">
+          <span class="section-tag">• FREQUENTLY ASKED</span>
+          <h2 class="section-title">Brokerage & Trading Questions</h2>
+        </div>
+
+        <div class="faq-accordion" id="faqAccordion">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>What is the difference between Godrex STP and Raw ECN accounts?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Our Standard STP account incorporates all fees into the spread (starting from 1.0 pips) with $0 commission. The Raw ECN account gives you direct interbank quotes starting from 0.0 pips with a fixed commission of $3.00 per standard lot per side, ideal for automated EAs and scalpers.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Are client funds held in segregated accounts?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Yes. 100% of retail and institutional client funds are held strictly in segregated accounts with Tier-1 international banking institutions (such as Barclays and UBS), completely ring-fenced from company operating capital.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Do you allow automated Expert Advisors (EAs) and scalping?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Absolutely. Godrex Capital has zero restrictions on trading strategies. High-frequency scalping, algorithmic EAs, grid trading, news event trading, and full hedging are all welcomed with no minimum stop distance.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>How fast are deposits and withdrawals processed?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-answer">
+              <p>Deposits via credit card, crypto (USDT/BTC/ETH), and e-wallets are credited instantly. Withdrawal requests submitted during market hours are processed within 2 to 4 hours with 0% broker fee.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION: CONTACT US (PHONE, EMAIL, ADDRESS) -->
+      <section class="section contact-section" id="contact">
+        <div class="section-header">
+          <span class="section-tag">• CONTACT US</span>
+          <h2 class="section-title">Get in Touch with Our Global Dealing Desk</h2>
+          <p class="section-subtitle">Our dedicated institutional support, liquidity specialists, and trading desks are standing by to assist your market operations.</p>
+        </div>
+
+        <div class="contact-bento-grid">
+          
+          <!-- Contact Card 1: Phone -->
+          <div class="contact-card">
+            <div class="contact-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+            </div>
+            <span class="contact-category">Phone Support</span>
+            <h3 class="contact-title">Direct Dealing Line</h3>
+            <p class="contact-detail">
+              <a href="tel:+2348100419719" class="contact-link">+234 810 041 9719</a>
+            </p>
+            <div class="contact-badge-pill">
+              <span class="pulse-dot"></span> 24/5 Live FX Trading Desk
+            </div>
+          </div>
+
+          <!-- Contact Card 2: WhatsApp -->
+          <a href="https://wa.me/2348100419719" target="_blank" rel="noopener noreferrer" class="contact-card whatsapp-contact-card" id="whatsappContactCard" aria-label="Chat with Godrex Capital on WhatsApp">
+            <div class="contact-icon-wrapper whatsapp-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+            </div>
+            <span class="contact-category">WhatsApp Support</span>
+            <h3 class="contact-title">Instant Dealing Chat</h3>
+            <p class="contact-detail whatsapp-number-detail">+234 810 041 9719</p>
+            <p class="contact-subdetail">
+              Direct chat with our liquidity &amp; dealing desk
+            </p>
+            <div class="whatsapp-cta-btn">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              Chat on WhatsApp
+            </div>
+          </a>
+
+          <!-- Contact Card 3: Email -->
+          <div class="contact-card active-contact">
+            <div class="contact-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <span class="contact-category">Email Inquiries</span>
+            <h3 class="contact-title">Client & Institutional Desk</h3>
+            <p class="contact-detail">
+              <a href="mailto:support@godrexcapital.com" class="contact-link">support@godrexcapital.com</a>
+            </p>
+            <p class="contact-subdetail">
+              Institutional: <a href="mailto:institutional@godrexcapital.com" class="contact-sublink">institutional@godrexcapital.com</a>
+            </p>
+            <div class="contact-badge-pill">
+              Average Response: &lt; 15 mins
+            </div>
+          </div>
+
+          <!-- Contact Card 4: Address -->
+          <div class="contact-card">
+            <div class="contact-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                <circle cx="12" cy="10" r="3"/>
+              </svg>
+            </div>
+            <span class="contact-category">Corporate Office</span>
+            <h3 class="contact-title">Physical Address</h3>
+            <p class="contact-detail text-address">
+              12 Kate House, Alakahia,<br>
+              Port Harcourt, Rivers State, Nigeria
+            </p>
+            <p class="contact-subdetail">
+              Trading Hub & Client Onboarding Centre
+            </p>
+            <div class="contact-badge-pill">
+              Registered Office
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- SECTION: FINAL CTA BANNER -->
+      <section class="section cta-banner-section">
+        <div class="cta-banner-card">
+          <div class="cta-banner-content">
+            <span class="section-tag tag-on-dark">• START TRADING TODAY</span>
+            <h2 class="cta-banner-title">Experience raw 0.0 pip spreads with Godrex Capital</h2>
+            <p class="cta-banner-desc">Open a live account in under 3 minutes, access 80+ currency pairs on MetaTrader 5, and trade with true institutional execution.</p>
+            <button class="btn btn-lime btn-large" id="footerCtaBtn">
+              <span>OPEN LIVE ACCOUNT</span>
+              <span class="btn-icon-circle">↗</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo footer-logo">
+            <svg class="brand-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 3L4 27H12L18 16.5L24 27H32L18 3Z" fill="#FFFFFF"/>
+              <path d="M18 21L14 28H22L18 21Z" fill="#D9F99D"/>
+            </svg>
+            <span class="brand-name white-text">Godrex Capital</span>
+          </div>
+          <p class="footer-tagline">
+            Next-generation Forex broker offering raw ECN spreads from 0.0 pips, sub-millisecond execution, and Tier-1 segregated liquidity.
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="social-link" aria-label="TradingView">TV</a>
+            <a href="#" class="social-link" aria-label="Twitter">X</a>
+            <a href="#" class="social-link" aria-label="Telegram">TG</a>
+            <a href="#" class="social-link" aria-label="MetaTrader">M5</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Trading Products</h4>
+          <ul class="footer-links">
+            <li><a href="#trading-accounts">Forex Majors & Minors</a></li>
+            <li><a href="#trading-accounts">Precious Metals (Gold/Silver)</a></li>
+            <li><a href="#trading-accounts">Crude Oil & Energies</a></li>
+            <li><a href="#trading-accounts">Global Equity Indices</a></li>
+            <li><a href="#trading-accounts">Crypto CFDs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Platforms & Tools</h4>
+          <ul class="footer-links">
+            <li><a href="#calculator">Forex Pip Calculator</a></li>
+            <li><a href="#performance">Equinix NY4 Low Latency</a></li>
+            <li><a href="#trading-accounts">MetaTrader 5 (MT5)</a></li>
+            <li><a href="#trading-accounts">FIX API 4.4 Engine</a></li>
+            <li><a href="#trading-accounts">Free Trader VPS</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-title">Market Signals</h4>
+          <p class="newsletter-sub">Receive daily technical setups, economic calendar alerts, and COT institutional positioning.</p>
+          <form class="newsletter-form" id="newsletterForm" novalidate>
+            <input type="email" id="newsletterEmail" placeholder="Enter your email" class="newsletter-input" required>
+            <button type="submit" class="btn btn-lime btn-small" id="newsletterSubmitBtn">Subscribe</button>
+          </form>
+          <div id="newsletterFeedback" class="form-feedback"></div>
+        </div>
+      </div>
+
+      <!-- High-Trust Regulatory & Risk Disclosure Section -->
+      <div class="broker-risk-warning">
+        <p><strong>High Risk Investment Warning:</strong> Trading Foreign Exchange (Forex) and Contracts for Difference (CFDs) on margin carries a high level of risk and may not be suitable for all investors. The high degree of leverage can work against you as well as for you. Before deciding to trade Forex, you should carefully consider your investment objectives, level of experience, and risk appetite. There is a possibility that you may sustain a loss of some or all of your initial investment.</p>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Godrex Capital Brokerage Ltd. All rights reserved. Segregated client funds in Tier-1 banks.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <span>•</span>
+          <a href="#">Client Agreement</a>
+          <span>•</span>
+          <a href="#">Execution Policy</a>
+          <span>•</span>
+          <a href="#">Risk Disclosure</a>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
