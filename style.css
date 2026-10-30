@@ -562,7 +562,7 @@ button {
   overflow: hidden;
   border: 3px solid rgba(255, 255, 255, 0.9);
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
-  background-color: #0f172a;
+  background-color: transparent;
 }
 
 .hero-portrait-img {
@@ -576,7 +576,7 @@ button {
 .portrait-soft-blend {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, transparent 35%);
+  background: none;
   pointer-events: none;
 }
 
